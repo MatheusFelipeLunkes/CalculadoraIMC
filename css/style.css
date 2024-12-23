@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container {
+    font-size: 24px;
+    padding: 15px 0;
+    width: 60vw;
+    background-color: rgb(146, 253, 239);
+    margin: 100px auto;
+    text-align: center;
+}
+
+#container > form > label{
+    display: block;
+    width: 90%;
+    padding: 15px 0;
+    height: 80px;
+    margin: auto;
+}
+#container > form > label > input {
+    width: 100%;
+    height: 35px;
+}
+
+#container > form > label > input:focus {
+    outline: 0;
+}
+
+#botao-calc {
+    margin: 20px auto 20px auto;
+    width: 80%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 20px;
+}
+
+#botao-calc:hover {
+    background-color: black;
+    color: white;
+}
+
+#resultado {
+    opacity: 0.7;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    font-size: 24px;
+}
