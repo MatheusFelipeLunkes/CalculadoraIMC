@@ -53,7 +53,7 @@ function exibeResultado(resultado) {
         grau = "Abaixo do peso";
     }
 
-    msg = `Seu IMC é: ${resultado.toFixed(2)}. O seu peso está: ${grau}`;
+    msg = `Seu IMC é: ${resultado.toFixed(2)} O seu peso está: ${grau}`;
     containerResultado.style.backgroundColor = color;
     containerResultado.textContent = msg;
 }
